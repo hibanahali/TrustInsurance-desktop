@@ -1,0 +1,65 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.bodybg{
+ -fx-background-image: url('assurance.jpg');
+ -fx-background-size: 100% 100%;
+}
+ .boutton{
+    -fx-background-color:  #00ccff;
+     -fx-text-fill: black;
+     
+
+}  
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#00ccff 0%, #00ccff 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #00ccff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #00ccff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #00ccff;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.scroll-pane{
+   -fx-background-color:transparent;
+}
+.scroll-pane > .viewport {  
+   -fx-background-color: transparent;
+}

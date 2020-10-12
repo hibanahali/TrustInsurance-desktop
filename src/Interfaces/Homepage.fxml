@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@../javafxapplication1/fxml.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.HomepageController">
+   <effect>
+      <Blend>
+         <topInput>
+            <Blend />
+         </topInput>
+      </Blend>
+   </effect>
+   <children>
+      <JFXButton layoutX="254.0" layoutY="105.0" prefHeight="25.0" prefWidth="113.0" styleClass="boutton" text="Afficher clients" />
+      <JFXButton layoutX="264.0" layoutY="149.0" styleClass="boutton" text="afficher admin" />
+      <JFXButton layoutX="278.0" layoutY="188.0" prefHeight="25.0" prefWidth="65.0" styleClass="boutton" text="article" />
+   </children>
+</AnchorPane>

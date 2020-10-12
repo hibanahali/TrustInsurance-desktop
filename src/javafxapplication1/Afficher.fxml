@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="840.0" styleClass="bodybg" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.AfficherController">
+   <children>
+      <TableView fx:id="table_view_event" layoutX="25.0" layoutY="83.0" onMouseClicked="#afficher_taswira" prefHeight="294.0" prefWidth="512.0">
+        <columns>
+          <TableColumn fx:id="date_debut" prefWidth="75.0" text="date debut" />
+          <TableColumn fx:id="date_fin" prefWidth="75.0" text="date fin" />
+            <TableColumn fx:id="description" prefWidth="75.0" text="description" />
+            <TableColumn fx:id="nombre_participant" prefWidth="128.0" text="nombre participant" />
+            <TableColumn fx:id="capacite" prefWidth="75.0" text="capacite" />
+            <TableColumn fx:id="lieu" prefWidth="37.0" text="lieu" />
+            <TableColumn fx:id="nom" prefWidth="46.0" text="nom" />
+        </columns>
+      </TableView>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="288.0" layoutX="539.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" width="294.0" />
+      <JFXButton fx:id="chercher" layoutX="540.0" layoutY="45.0" styleClass="boutton" stylesheets="@fxml.css" text="Chercher" />
+      <JFXButton fx:id="delete" layoutX="184.0" layoutY="45.0" styleClass="boutton" stylesheets="@fxml.css" text="Supprimer" />
+      <JFXButton fx:id="got_to_modifier" layoutX="104.0" layoutY="45.0" styleClass="boutton" stylesheets="@fxml.css" text="Modifer" />
+      <JFXButton fx:id="go_to_add" layoutX="25.0" layoutY="45.0" styleClass="boutton" stylesheets="@fxml.css" text="Ajouter" />
+      <JFXTextField fx:id="search_bar" focusColor="#00176d" labelFloat="true" layoutX="271.0" layoutY="39.0" prefHeight="31.0" prefWidth="251.0" promptText="search bar" unFocusColor="#0037ff" />
+      <JFXButton fx:id="retour" layoutX="688.0" layoutY="14.0" styleClass="boutton" stylesheets="@fxml.css" text="retour" />
+   </children>
+</AnchorPane>

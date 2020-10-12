@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@fxml.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.AccueilController">
+   <children>
+      <JFXButton fx:id="autre" alignment="CENTER" buttonType="RAISED" layoutX="256.0" layoutY="205.0" prefHeight="43.0" prefWidth="87.0" ripplerFill="RED" styleClass="boutton" stylesheets="@fxml.css" text="CLIENTS" textAlignment="CENTER" />
+      <JFXButton fx:id="go_to_events" buttonType="RAISED" layoutX="228.0" layoutY="152.0" onMouseClicked="#free" prefHeight="43.0" prefWidth="144.0" styleClass="boutton" stylesheets="@fxml.css" text="EVENTS ADMIN" />
+   </children>
+</AnchorPane>
